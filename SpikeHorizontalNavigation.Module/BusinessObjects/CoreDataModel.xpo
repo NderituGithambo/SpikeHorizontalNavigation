@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dataBaseObjectModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="490c36d9-cf6f-47f2-acc9-479e5bde88d2" namespace="SpikeHorizontalNavigation.Module.BusinessObjects.SpikeHorizontalNavigation" dataBaseShemaInfo="H4sIAAAAAAAEAN1X224bNxB9L9B/EPxsasnlPVgpSOzUMNK6QewUfeVlaC+62hX2Yjt/31lLViw5Fxc1VNQQICzPDEGemTMkp3h9u6gm19B2ZVPPDtiUHrye//xT8dZ1cN43rbuE0zo1E/Squ1e3XTk7uOr75assu7m5md7wadNeZjmlLPvzt1/PwxUsHCnrrnd1gIPNrPjjWQe46mRSXDhfQTcueTe+Rx4A99CZW8D8TddBX2RfgI3Pu3rE5n07QJGtBxvjcdmNwKdldD3Mk6s6dNoGN74nQxlP4zyoANo5Q8DnmogQLDFSakJBxKQp9YmmIls7byYfNdWwqLut7X8TRsPIYWWcj59F9gDYcvwevX9K8SHNFK1QSQoSkqdERKuJN1oREM5QqRVoKh7RxOnZv2B6Dm3pqrNm/2whREyr8iQo6YiQ0RAreSI+GpMzhQLN8+dm+/tNDe3+qbKgcs05I5AC6tciX0slJ9o4Cxwl7IR9MtWvoesqfHLpruOwh9IVHqR0NpCoAxChGSMmeCDGeJZMklbFx5r+/5Vu7pw2RnMUs8EMJ85Rx4kS7wVIwRwA9c8t5tPj/fM0XIDVUhIJQmE6hSQuGiDaJ8loSNbuWcl3l9DF5yXsRc1JpSBYHkmujCDCh0Ss5gYTbrTAuPhI2QtQM82VA8MVUTrHLKsUiVfME6a9UjQyJvizH83H0IW2XPb4FNo/YQUOD6pAidEmx7xaR7wQiXAeOfXUa+bV/mV90jbDci+6Vkxx5TUe0BKDIAxWtOM2Ec1s0hZ/Mr2EUzrmPHosWMywZ/gnIzHeUWKtY5ZxRl3gL0rXkbtcK0kJx9uICPB4XHthCD6v8M1s8DY2Tyf8FF2vx19cirGRgfihbcIdOMlW8B+rrgfDc/3udtlC102PXe+m1zmd5oeTtXk2jqZ8Sg8nR0PVDy3Mahj61lWHkw+Dr8rwHj5fNH9BPfPGRKaliNgPgLCuyO6XuFvvqHJYUt2YgI/DJrrFm4hbg1Terve1gs6HtAV9hEVzDbuOK3TX9wibt/mnOly5+hIixmwcr0LztT0UGJkltH35H+/tG9soTgBfiiivo2axgLrv1hp9BG85o+bLS/z8pUQp7MzYtt1NOxuqalTNW7hy12XToiiSw3RjvexasDvOdtrj+d/+M3aiRw8AAA==" generateConnectionHelper="true" generateStoredProcedures="false" fieldNameCase="Unchanged" generateDefaultConstructors="false" useNameOf="true" connectionStringName="MWAISQLEXPRESSSpikeHorizontalNavigation" createdInVersion="20.2.3.0" generateJsonSerializationContractResolver="false" generateServiceCollectionExtensions="false" lastModifiedInVersion="20.2.3.0" name="SpikeHorizontalNavigation" xmlns="http://schemas.microsoft.com/dsltools/ORMDataModel">
+  <classes>
+    <dataBaseObjectModelHasClasses Id="43205729-fbd7-44de-8efb-6af442eacc2f">
+      <xpObject Id="c6ce7aa8-eb27-4cc9-8557-0e4df700bf0f" name="Asset" baseClass="XPObject" userFileName="Asset" designerFileName="Asset.Designer" className="Asset" virtualName="Asset">
+        <fields>
+          <generalXpObjectHasFields Id="5ffc32c8-f7ba-4580-b441-6cb25ee3fbda">
+            <field Id="fd946f54-cfb0-4d97-b876-e4a80576e704" name="Name" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="4ac14018-376e-4c18-b52d-5714c20c52ce">
+            <field Id="ecd6ce6b-c65a-45d8-953f-bd8821600122" name="SerialNo" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="7019521c-6694-428e-a44e-3b9f5d72cf59">
+            <field Id="1c627331-efc7-495a-9053-78a9e3df7a49" name="Owner" virtualColumnType="Owner" logicalType="Owner" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="91366c81-14a9-4d30-9444-ff349f96156d">
+      <xpObject Id="4be55a9c-d7ce-4711-8cbe-88b1f8f596d4" name="Owner" baseClass="XPObject" userFileName="Owner" designerFileName="Owner.Designer" className="Owner" virtualName="Owner">
+        <fields>
+          <generalXpObjectHasFields Id="2650ab7d-9899-4b68-b801-2c1e6d0bc906">
+            <field Id="2aa78873-c687-4f33-bdf0-bb4e541aee0b" name="Name" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="fbcd56a5-6797-4ef4-9228-8a563c0cbb09">
+            <field Id="834e9755-5e46-4745-ad8e-7bf510cf9949" name="ID" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+        <saTargets>
+          <simpleAssociation Id="3fba5802-1f53-497e-baea-386bd3602ced" sourceCollectionName="Assets" name="AssetReferencesOwner" targetFieldName="Owner">
+            <xpObjectMoniker Id="c6ce7aa8-eb27-4cc9-8557-0e4df700bf0f" />
+          </simpleAssociation>
+        </saTargets>
+        <collectionFields>
+          <xpObjectHasCollectionFields Id="b1de3608-7843-46ce-9f5d-1730eff660d3">
+            <collectionField Id="da1ae31f-1011-4a52-8634-e41b76b5b542" name="Assets" />
+          </xpObjectHasCollectionFields>
+        </collectionFields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="e57116e7-c479-4ac6-8dc6-c1d168730570">
+      <xpObject Id="f6fc412d-2684-4bcf-9738-4f874975bd01" name="AssetType" baseClass="XPObject" userFileName="AssetType" designerFileName="AssetType.Designer" className="AssetType" virtualName="AssetType">
+        <fields>
+          <generalXpObjectHasFields Id="895c4cab-7482-4f35-b990-2da90bace17c">
+            <field Id="026ae836-6726-46fd-b61b-17b660d11432" name="Name" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="19e40746-8277-481e-951a-ee09d570fcdf">
+            <field Id="6ea4bec0-8782-4b9a-b44f-33d30b0b71b6" name="Description" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="7f5e610d-241e-4b95-813a-89360255772d">
+      <xpObject Id="61636b7e-45c0-488e-a39f-719f797975f4" name="AssetGroup" baseClass="XPObject" userFileName="AssetGroup" designerFileName="AssetGroup.Designer" className="AssetGroup" virtualName="AssetGroup">
+        <fields>
+          <generalXpObjectHasFields Id="c7f825bb-1fc8-43c6-9f16-85270f524c1c">
+            <field Id="d23db973-4bb1-4b5d-8ba0-99a191310ac3" name="Name" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="cc9c8e32-bcec-4152-970b-77c52e01030f">
+            <field Id="d3a27650-3bdf-4eb5-ab48-160bf0871183" name="Description" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+  </classes>
+</dataBaseObjectModel>

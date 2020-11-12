@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Title="SpikeHorizontalNavigation">
+  <NavigationItems>
+    <Items>
+      <Item Id="Assets" Caption="Assets" IsNewNode="True">
+        <Items IsNewNode="True">
+          <Item Id="Asset" Caption="Asset" ViewId="Asset_ListView" IsNewNode="True" />
+          <Item Id="AssetConfigurations" Caption="AssetConfigurations" IsNewNode="True">
+            <Items IsNewNode="True">
+              <Item Id="AssetGroup" Caption="AssetGroup" ViewId="AssetGroup_ListView" IsNewNode="True" />
+              <Item Id="AssetType" Caption="AssetType" ViewId="AssetType_ListView" IsNewNode="True" />
+            </Items>
+          </Item>
+        </Items>
+      </Item>
+      <Item Id="Owners" Caption="Owners" IsNewNode="True">
+        <Items IsNewNode="True">
+          <Item Id="Owner" Caption="Owner" IsNewNode="True" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+  <Options>
+    <LayoutManagerOptions RequiredFieldMark="*" />
+  </Options>
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="20.2.3.0" IsNewNode="True" />
+  </SchemaModules>
+</Application>
