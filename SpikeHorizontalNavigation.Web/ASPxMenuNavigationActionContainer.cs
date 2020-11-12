@@ -11,7 +11,7 @@ using DevExpress.ExpressApp.Web;
 using DevExpress.ExpressApp.Web.Templates.ActionContainers;
 using DevExpress.ExpressApp.Web.TestScripts;
 using DevExpress.Web;
-using Mark.Serious.Web;
+using Custom.Namespace.Web;
 
 namespace SpikeHorizontalNavigation.Web
 {

@@ -1,4 +1,4 @@
-﻿<%@ Control Language="C#" CodeBehind="HorizontalTemplateContent.ascx.cs" ClassName="HorizontalTemplateContent" Inherits="Mark.Serious.Web.HorizontalTemplateContent"%>
+﻿<%@ Control Language="C#" CodeBehind="HorizontalTemplateContent.ascx.cs" ClassName="HorizontalTemplateContent" Inherits="Custom.Namespace.Web.HorizontalTemplateContent"%>
 <%@ Register Assembly="DevExpress.Web.v20.2, Version=20.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web"
     TagPrefix="dx" %>
 <%@ Register Assembly="DevExpress.ExpressApp.Web.v20.2, Version=20.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.ExpressApp.Web.Templates.ActionContainers"
@@ -9,7 +9,7 @@
     TagPrefix="cc4" %>
 <%@ Register Assembly="DevExpress.ExpressApp.Web.v20.2, Version=20.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.ExpressApp.Web.Templates.Controls"
     TagPrefix="tc" %>
-<%@ Register TagPrefix="chp" Namespace="Mark.Serious.Web" Assembly="SpikeHorizontalNavigation.Web" %>
+<%@ Register TagPrefix="chp" Namespace="Custom.Namespace.Web" Assembly="SpikeHorizontalNavigation.Web" %>
 <%@ Register TagPrefix="chp" Namespace="SpikeHorizontalNavigation.Web" Assembly="SpikeHorizontalNavigation.Web" %>
 
 <div class="HorizontalTemplate BodyBackColor">

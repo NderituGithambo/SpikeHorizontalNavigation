@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Mark.Serious.Web
+namespace Custom.Namespace.Web
 {
 
 

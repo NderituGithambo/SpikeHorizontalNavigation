@@ -9,7 +9,7 @@ using DevExpress.ExpressApp.Web;
 using DevExpress.ExpressApp.Web.Templates;
 using DevExpress.ExpressApp.Templates;
 
-namespace Mark.Serious.Web
+namespace Custom.Namespace.Web
 {
     public partial class HorizontalTemplateContent : TemplateContent, IHeaderImageControlContainer, IXafPopupWindowControlContainer
     {
